@@ -3,3 +3,4 @@ molecule == 6.*
 molecule-plugins[docker] == 23.*
 ansible-lint == 6.*
 paramiko == 3.*
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
